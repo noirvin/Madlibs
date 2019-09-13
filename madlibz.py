@@ -8,6 +8,8 @@ def create(word):
 #function to access default python input function
 def user_input(prompt):
     user_input = input(prompt)
+    return user_input
+
 #variables to store words in the blanks
 #adding the words into the blankList
 verb1 = user_input("Enter a verb -ing")
